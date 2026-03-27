@@ -1,0 +1,20 @@
+apiVersion: plugin.halo.run/v1alpha1
+kind: Plugin
+metadata:
+  name: epic-free-games
+spec:
+  enabled: true
+  version: 1.0.0
+  requires: ">=2.10.0"
+  author:
+    name: fusheng
+    website: https://github.com/baoxinwen
+  logo: logo.png
+  homepage: https://github.com/baoxinwen/epic-free-games
+  repo: https://github.com/baoxinwen/epic-free-games
+  issues: https://github.com/baoxinwen/epic-free-games/issues
+  displayName: "Epic 免费游戏"
+  description: "展示 Epic Games 商店当前免费的游戏，区分当前免费与即将免费，每周自动更新"
+  license:
+    - name: "MIT"
+      url: "https://github.com/baoxinwen/epic-free-games/blob/main/LICENSE"
